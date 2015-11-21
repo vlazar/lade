@@ -1,0 +1,35 @@
+{
+  "name": "lade",
+  "version": "0.0.0",
+  "description": "Lazy object properties",
+  "main": "lib/lade.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vlazar/lade.git"
+  },
+  "keywords": [
+    "define",
+    "lazy",
+    "property",
+    "properties"
+  ],
+  "author": "Vladislav Zarakovsky <vlad.zar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vlazar/lade/issues"
+  },
+  "homepage": "https://github.com/vlazar/lade",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-coverage": "^0.5.3",
+    "karma-jasmine": "^0.3.6"
+  }
+}
